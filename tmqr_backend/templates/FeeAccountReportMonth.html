@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+    {% block content %}
+    <h1>GMI Fees</h1>
+
+    <table class="table table-stripped">
+
+        <thead>
+            <tr>
+                <th>FCM</th>
+                <th>Office</th>
+                <th>Account</th>
+                <th>Traded Quantity Buy</th>
+                <th>Traded Quantity Sell</th>
+                <th>Commission</th>
+                <th>Clearing Fees</th>
+                <th>Exchange Fees</th>
+                <th>Transaction Fees</th>
+                <th>NFA Fees</th>
+                <th>Brokerage Fees</th>
+                <th>Trade Processing Fees</th>
+                <th>CBOT Globex Fee</th>
+                <th>CME Globex Fee</th>
+                <th>Give In Fee</th>
+                <th>Total Fees</th>
+                <th>Total Fees & Commissions</th>
+            </tr>           
+        </thead>
+        <tbody>
+
+        {% for qi in accountdata_list %}
+            <tr>
+                <td>{{ qi.FCM }}</td>
+                <td>{{ qi.Office }}</td>
+                <td>{{ qi.Account }}</td>
+                <td>{{ qi.TradedQuantityBuy }}</td>
+                <td>{{ qi.TradedQuantitySell }}</td>
+                <td>{{ qi.Commission }}</td>
+                <td>{{ qi.ClearingFees }}</td>
+                <td>{{ qi.ExchangeFees }}</td>
+                <td>{{ qi.TransactionFees }}</td>
+                <td>{{ qi.NFAFees }}</td>
+                <td>{{ qi.BrokerageFees }}</td>
+                <td>{{ qi.TradeProcessingFees }}</td>
+                <td>{{ qi.CBOT_Globex_Fee }}</td>                
+                <td>{{ qi.CME_Globex_Fee }}</td>
+                <td>{{ qi.Give_In_Fee }}</td>
+                <td>{{ qi.TotalFees }}</td>
+                <td>{{ qi.SumOfFeesAndCommission }}</td>
+                
+            </tr>
+
+        {% endfor %}
+
+
+        </tbody>
+
+    </table>
+    {% endblock %}
+
