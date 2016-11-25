@@ -71,38 +71,39 @@ class GMIAccountComponent extends React.Component {
                 <DateRangePickerForDataCall onMagicClick={this.sendData}/>
                 <div>
 
-                    <table className="table table-bordered">
+                    <table className="table table-bordered account-performance">
 
                         <thead>
                         <tr>
-                            <th>FCM</th>
-                            <th>Sum mary Det ail Flag</th>
-                            <th>Ccy</th>
-                            <th>Firm</th>
-                            <th>Office</th>
-                            <th>Acc ount</th>
-                            <th>Date</th>
-                            <th>Acc ount Type</th>
-                            <th>Comm ission</th>
-                            <th>Total Fees</th>
-                            <th>Trans actions Commiss ions Fees</th>
-                            <th>Exch ange Code</th>
-                            <th>Trad ed Quant ity Buy</th>
-                            <th>Trad ed Quant ity Sell</th>
-                            <th>Curr ent Pos ition</th>
-                            <th>Total Equity</th>
-                            <th>Curr ent OV</th>
-                            <th>Change In AV At MD Con verted</th>
-                            <th>Con verted Acc ount Value At Market</th>
-                            <th>Con verted Prior Account Value At Market</th>
-                            <th>Con verted Change In Account Value At Market</th>
-                            <th>Init ial Margin Require ment</th>
-                            <th>Maint enance Margin Requirement</th>
-                            <th>Marg in Excess</th>
-                            <th>Secur ity Master ID</th>
-                            <th>Sect or Id</th>
-                            <th>Sect or</th>
-                            <th>Secur ity Master Desc</th>
+                            <th><span title='FCM'>FCM</span></th>
+                            <th><span title='Summary Detail Flag'>SDF</span></th>
+                            <th><span title='Ccy'>Ccy</span></th>
+                            <th><span title='Firm'>Frm</span></th>
+                            <th><span title='Office'>Ofc</span></th>
+                            <th><span title='Account'>Act</span></th>
+                            <th><span title='Date'>Dte</span></th>
+                            <th><span title='Account Type'>AT</span></th>
+                            <th><span title='Commission'>Cms</span></th>
+                            <th><span title='Total Fees'>TF</span></th>
+                            <th><span title='Transactions Commissions Fees'>TFC</span></th>
+                            <th><span title='Exchange Code'>ExC</span></th>
+                            <th><span title='Traded Quantity Buy'>TQB</span></th>
+                            <th><span title='Traded Quantity Sell'>TQS</span></th>
+                            <th><span title='Current Position'>CP</span></th>
+                            <th><span title='Total Equity'>TE</span></th>
+                            <th><span title='Current OTE'>Cur OTE</span></th>
+                            <th><span title='Current OV'>Cur OV</span></th>
+                            <th><span title='Change in AV At MD Converted'>Chg in AV At MD Cvt</span></th>
+                            <th><span title='Converted Account Value At Market'>Cvt Act Val At Mkt</span></th>
+                            <th><span title='Converted Prior Account Value At Market'>Cvt Pri Act Val At Mkt</span></th>
+                            <th><span title='Converted Change In Account Value At Market'>Cvt Chg In Act Val At Mkt</span></th>
+                            <th><span title='Initial Margin Requirement'>Int Mgn Rqt</span></th>
+                            <th><span title='Maintenance Margin Requirement'>Mtn Mrg Req</span></th>
+                            <th><span title='Margin Excess'>Mgn Exs</span></th>
+                            <th><span title='Security Master ID'>Sec Mstr ID</span></th>
+                            <th><span title='Sector Id'>Sctr Id</span></th>
+                            <th><span title='Sector'>Sctr</span></th>
+                            <th><span title='Security Master Desc'>Scty Mstr Desc</span></th>
 
                         </tr>
                         </thead>
@@ -147,6 +148,7 @@ function ContractQuotesItem(props) {
             <td>{ qi.TradedQuantitySell }</td>
             <td>{ qi.CurrentPosition }</td>
             <td>{ qi.TotalEquity }</td>
+            <td>{ qi.CurrentOTE }</td>
             <td>{ qi.CurrentOV }</td>
             <td>{ qi.ChangeInAV_At_MD_Converted }</td>
             <td>{ qi.ConvertedAccountValueAtMarket }</td>

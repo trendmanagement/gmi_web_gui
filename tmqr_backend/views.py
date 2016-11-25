@@ -165,6 +165,7 @@ def get_account_performance(start_date, end_date):
                 'TradedQuantitySell': round(accountdata['TradedQuantitySell'], 2),
                 'CurrentPosition': round(accountdata['CurrentPosition'], 2),
                 'TotalEquity': round(accountdata['TotalEquity'], 2),
+                'CurrentOTE': round(accountdata['CurrentOTE'], 2),
                 'CurrentOV': round(accountdata['CurrentOV'], 2),
                 'ChangeInAV_At_MD_Converted': round(accountdata['ChangeInAV_At_MD_Converted'], 2),
                 'ConvertedAccountValueAtMarket': round(accountdata['ConvertedAccountValueAtMarket'], 2),

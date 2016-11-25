@@ -75,23 +75,23 @@ class GMIFeeComponent extends React.Component {
 
                         <thead>
                         <tr>
-                            <th>FCM</th>
-                            <th>Office</th>
-                            <th>Account</th>
-                            <th>Trad ed Qty Buy</th>
-                            <th>Trad ed Qty Sell</th>
-                            <th>Comm ission</th>
-                            <th>Clear ing Fees</th>
-                            <th>Exch ange Fees</th>
-                            <th>Trans action Fees</th>
-                            <th>NFA Fees</th>
-                            <th>Broker age Fees</th>
-                            <th>Trade Process ing Fees</th>
-                            <th>CBOT Globex Fee</th>
-                            <th>CME Globex Fee</th>
-                            <th>Give In Fee</th>
-                            <th>Total Fees</th>
-                            <th>Total Fees & Commiss ions</th>
+                            <th><span title='FCM'>FCM</span></th>
+                            <th><span title='Office'>Office</span></th>
+                            <th><span title='Account'>Acct</span></th>
+                            <th><span title='Traded Qty Buy'>Trd Qty Buy</span></th>
+                            <th><span title='Traded Qty Sell'>Trd Qty Sell</span></th>
+                            <th><span title='Commission'>Commiss</span></th>
+                            <th><span title='Clearing Fees'>Clear. Fees</span></th>
+                            <th><span title='Exchange Fees'>Exch Fees</span></th>
+                            <th><span title='Transaction Fees'>Trans Fees</span></th>
+                            <th><span title='NFA Fees'>NFA Fees</span></th>
+                            <th><span title='Brokerage Fees'>Brkrge Fees</span></th>
+                            <th><span title='Trade Processing Fees'>Trd Process Fees</span></th>
+                            <th><span title='CBOT Globex Fee'>CBOT Glbx Fee</span></th>
+                            <th><span title='CME Globex Fee'>CME Glbx Fee</span></th>
+                            <th><span title='Give In Fee'>Give In Fee</span></th>
+                            <th><span title='Total Fees'>Ttl Fee</span></th>
+                            <th><span title='Total Fees & Commissions'>Ttl Fee & Commiss</span></th>
                         </tr>
                         </thead>
                         <tbody>

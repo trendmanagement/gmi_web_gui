@@ -22415,87 +22415,155 @@
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'FCM'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'FCM' },
+	                                            'FCM'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Office'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Office' },
+	                                            'Office'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Account'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Account' },
+	                                            'Acct'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trad ed Qty Buy'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Traded Qty Buy' },
+	                                            'Trd Qty Buy'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trad ed Qty Sell'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Traded Qty Sell' },
+	                                            'Trd Qty Sell'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Comm ission'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Commission' },
+	                                            'Commiss'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Clear ing Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Clearing Fees' },
+	                                            'Clear. Fees'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Exch ange Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Exchange Fees' },
+	                                            'Exch Fees'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trans action Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Transaction Fees' },
+	                                            'Trans Fees'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'NFA Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'NFA Fees' },
+	                                            'NFA Fees'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Broker age Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Brokerage Fees' },
+	                                            'Brkrge Fees'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trade Process ing Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Trade Processing Fees' },
+	                                            'Trd Process Fees'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'CBOT Globex Fee'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'CBOT Globex Fee' },
+	                                            'CBOT Glbx Fee'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'CME Globex Fee'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'CME Globex Fee' },
+	                                            'CME Glbx Fee'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Give In Fee'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Give In Fee' },
+	                                            'Give In Fee'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Total Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Total Fees' },
+	                                            'Ttl Fee'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Total Fees & Commiss ions'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Total Fees & Commissions' },
+	                                            'Ttl Fee & Commiss'
+	                                        )
 	                                    )
 	                                )
 	                            ),
@@ -69701,7 +69769,7 @@
 	                        null,
 	                        _react2.default.createElement(
 	                            'table',
-	                            { className: 'table table-bordered' },
+	                            { className: 'table table-bordered account-performance' },
 	                            _react2.default.createElement(
 	                                'thead',
 	                                null,
@@ -69711,142 +69779,263 @@
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'FCM'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'FCM' },
+	                                            'FCM'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Sum mary Det ail Flag'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Summary Detail Flag' },
+	                                            'SDF'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Ccy'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Ccy' },
+	                                            'Ccy'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Firm'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Firm' },
+	                                            'Frm'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Office'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Office' },
+	                                            'Ofc'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Acc ount'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Account' },
+	                                            'Act'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Date'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Date' },
+	                                            'Dte'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Acc ount Type'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Account Type' },
+	                                            'AT'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Comm ission'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Commission' },
+	                                            'Cms'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Total Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Total Fees' },
+	                                            'TF'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trans actions Commiss ions Fees'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Transactions Commissions Fees' },
+	                                            'TFC'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Exch ange Code'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Exchange Code' },
+	                                            'ExC'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trad ed Quant ity Buy'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Traded Quantity Buy' },
+	                                            'TQB'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Trad ed Quant ity Sell'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Traded Quantity Sell' },
+	                                            'TQS'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Curr ent Pos ition'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Current Position' },
+	                                            'CP'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Total Equity'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Total Equity' },
+	                                            'TE'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Curr ent OV'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Current OTE' },
+	                                            'Cur OTE'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Change In AV At MD Con verted'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Current OV' },
+	                                            'Cur OV'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Con verted Acc ount Value At Market'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Change in AV At MD Converted' },
+	                                            'Chg in AV At MD Cvt'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Con verted Prior Account Value At Market'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Converted Account Value At Market' },
+	                                            'Cvt Act Val At Mkt'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Con verted Change In Account Value At Market'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Converted Prior Account Value At Market' },
+	                                            'Cvt Pri Act Val At Mkt'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Init ial Margin Require ment'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Converted Change In Account Value At Market' },
+	                                            'Cvt Chg In Act Val At Mkt'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Maint enance Margin Requirement'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Initial Margin Requirement' },
+	                                            'Int Mgn Rqt'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Marg in Excess'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Maintenance Margin Requirement' },
+	                                            'Mtn Mrg Req'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Secur ity Master ID'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Margin Excess' },
+	                                            'Mgn Exs'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Sect or Id'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Security Master ID' },
+	                                            'Sec Mstr ID'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Sect or'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Sector Id' },
+	                                            'Sctr Id'
+	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'th',
 	                                        null,
-	                                        'Secur ity Master Desc'
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Sector' },
+	                                            'Sctr'
+	                                        )
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'th',
+	                                        null,
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { title: 'Security Master Desc' },
+	                                            'Scty Mstr Desc'
+	                                        )
 	                                    )
 	                                )
 	                            ),
@@ -69953,6 +70142,11 @@
 	            'td',
 	            null,
 	            qi.TotalEquity
+	        ),
+	        _react2.default.createElement(
+	            'td',
+	            null,
+	            qi.CurrentOTE
 	        ),
 	        _react2.default.createElement(
 	            'td',
